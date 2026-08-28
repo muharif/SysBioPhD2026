@@ -3,7 +3,9 @@
 **Course dates:** 7–11 September 2026  
 **Course start:** Monday, 7 September 2026, 09.15
 
-**Registration for the course in Ladok opens two weeks ahead of the course start.**
+## Pre-course setup
+
+Please complete the [pre-course setup](https://github.com/muharif/SysBioPhD2026/blob/main/precourse_setup.md) before the course starts.
 
 ## Lectures
 

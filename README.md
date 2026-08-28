@@ -1,4 +1,4 @@
-# SysBioPhD2026
+# SM00146 H26 Systembiologi och omiska teknologier
 
 **Course dates:** 7–11 September 2026  
 **Course start:** Monday, 7 September 2026, 09.15

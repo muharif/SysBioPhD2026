@@ -1,13 +1,12 @@
 # Pre-course setup
 
-Please complete the setup before the course starts.
-
-You can use one of the following environments:
+Please complete the setup before the course starts. 
 
 1. [**Posit Cloud — recommended**](#1-posit-cloud)
 2. Choose one of these, depending on your operating system. You only need to set up **one** of these.
 - [**macOS/Linux with Terminal**](#2-macos-or-linux)
 - [**Windows with WSL**](#3-windows-with-wsl)
+3. Complete the [pre-course survey](https://forms.gle/bN4FHu9Djp81MRr47)
 
 NOTE: download the [env.yml](https://github.com/muharif/SysBioPhD2026/blob/main/env.yml) file here
 

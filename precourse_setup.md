@@ -4,15 +4,16 @@ Please complete the setup before the course starts.
 
 You can use one of the following environments:
 
-1. [**Posit Cloud — recommended**](#1-posit-cloud--recommended)
-2. [**macOS/Linux with Terminal**](#2-macos-or-linux)
-3. [**Windows with WSL**](#3-windows-with-wsl)
+1. [**Posit Cloud — recommended**](#1-posit-cloud)
+2. Choose one of these, depending on your operating system. You only need to set up **one** of these.
+- [**macOS/Linux with Terminal**](#2-macos-or-linux)
+- [**Windows with WSL**](#3-windows-with-wsl)
 
-You only need to set up **one** of these.
+NOTE: download the [env.yml](https://github.com/muharif/SysBioPhD2026/blob/main/env.yml) file here
 
-## 1. Posit Cloud — recommended
+## 1. Posit Cloud
 
-The easiest option is to use [Posit Cloud](https://posit.cloud/).
+Register for the free account at [Posit Cloud](https://posit.cloud/) using your registered email for this course. This will be used as an option to set up the programming environment. The link to join the course workspace will be provided later this week.
 
 1. Create an account or sign in.
 2. Open the course workspace/project when provided.

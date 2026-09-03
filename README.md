@@ -7,6 +7,10 @@
 
 Please complete the [pre-course setup](https://github.com/muharif/SysBioPhD2026/blob/main/precourse_setup.md) before the course starts.
 
+## List of Web Tools
+
+I have prepared a list of [web tools](https://github.com/muharif/SysBioPhD2026/blob/main/webtools.md) for omics analysis that you can use as a reference for the future.
+
 ## Lectures
 
 *Links to the modules will be updated.*

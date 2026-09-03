@@ -1,4 +1,4 @@
-# Pre-course setup
+# Web Tools
 
 Below are useful web-based resources for working with **transcriptomics, proteomics, metabolomics, and genomics** data.
 

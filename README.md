@@ -22,7 +22,7 @@ I have prepared a list of [web tools](https://sysbiophd.multiomics.se/webtools) 
 - Transcriptomics - [Main Exercise](https://sysbiophd.multiomics.se/Transcriptomics/TranscriptomicsExercise) - [Optional Exercise: Network Analysis](https://sysbiophd.multiomics.se/Transcriptomics/NetworkAnalysisExercise)
 - Genomics - [Exercise](https://sysbiophd.multiomics.se/Genomics/genetics-workshop)
 - Proteomics and Metabolomics
-- Guest Lecture(s) from Industry and Academia
+- Guest Lecture(s) from Industry and Academia - [Rui Benfeitas, PhD](https://sysbiophd.multiomics.se/Transcriptomics/guest)
 
 ## Course leader
 

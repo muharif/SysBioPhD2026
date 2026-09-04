@@ -57,6 +57,22 @@ from scipy.stats import zscore, spearmanr
 import gseapy as gp
 ```
 
+## 1a: Check required folders and data
+
+The exercise expects a `data/` folder containing the input files and a
+`Results/` folder for generated outputs.
+
+If you downloaded only this notebook:
+
+- `Results/` will be created automatically.
+- If `data/` is missing, the required exercise data will be downloaded
+  automatically from the course GitHub repository.
+- If the folders already exist, they will be left unchanged.
+
+```python
+%run checkdir.py
+```
+
 ## 2. Load and inspect the input data
 
 We begin by loading the three tables used in the analysis:

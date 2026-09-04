@@ -19,8 +19,8 @@ I have prepared a list of [web tools](https://sysbiophd.multiomics.se/webtools) 
 
 *Links to the modules will be updated.*
 
-- Transcriptomics | [Exercise](https://sysbiophd.multiomics.se/Transcriptomics/TranscriptomicsExercise)
-- Genomics | [Exercise](https://sysbiophd.multiomics.se/Genomics/genetics-workshop)
+- Transcriptomics - [Main Exercise](https://sysbiophd.multiomics.se/Transcriptomics/TranscriptomicsExercise) - [Optional Exercise: Network Analysis](https://sysbiophd.multiomics.se/Transcriptomics/NetworkAnalysisExercise)
+- Genomics - [Exercise](https://sysbiophd.multiomics.se/Genomics/genetics-workshop)
 - Proteomics and Metabolomics
 - Guest Lecture(s) from Industry and Academia
 

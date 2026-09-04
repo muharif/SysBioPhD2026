@@ -1,4 +1,4 @@
-[⬇️ Download the Jupyter notebook](./TranscriptomicsExercise.ipynb?raw=1)
+[⬇️ Download the Jupyter notebook](./TranscriptomicsExercise.ipynb?raw=1) (Right Click -> Save Link As..)
 
 ---
 

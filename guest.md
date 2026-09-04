@@ -12,4 +12,4 @@ Rui Benfeitas is Head of Translational & Precision Medicine at Chiesi Pharma, wh
 ### Find out more
 
 - [LinkedIn](https://www.linkedin.com/in/ruibenfeitas/)
-- [Personal website](https://benfeitas.com/)
+- [Personal website](https://benfeitas.net/)

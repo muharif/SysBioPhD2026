@@ -4,3 +4,5 @@ Transcriptomics/.pybiomart.sqlite
 /Transcriptomics/data/.ipynb_checkpoints
 /Transcriptomics/Old
 /Transcriptomics/.ipynb_checkpoints
+/Genomics/__pycache__
+/Genomics/.ipynb_checkpoints

@@ -1,0 +1,26 @@
+	condition	Treatment	Day
+13-Bleo14D-1	Bleo14D	Bleomycin	14 Days
+15-Bleo14D-3	Bleo14D	Bleomycin	14 Days
+16-Bleo14D-4	Bleo14D	Bleomycin	14 Days
+17-Bleo14D-5	Bleo14D	Bleomycin	14 Days
+18-Bleo14D-6	Bleo14D	Bleomycin	14 Days
+23-Bleo21D-1	Bleo21D	Bleomycin	21 Days
+25-Bleo21D-3	Bleo21D	Bleomycin	21 Days
+26-Bleo21D-4	Bleo21D	Bleomycin	21 Days
+29-Bleo21D-7	Bleo21D	Bleomycin	21 Days
+30-Bleo21D-8	Bleo21D	Bleomycin	21 Days
+33-Bleo28D-1	Bleo28D	Bleomycin	28 Days
+34-Bleo28D-2	Bleo28D	Bleomycin	28 Days
+36-Bleo28D-4	Bleo28D	Bleomycin	28 Days
+37-Bleo28D-5	Bleo28D	Bleomycin	28 Days
+39-Bleo28D-7	Bleo28D	Bleomycin	28 Days
+3-Bleo7D-1	Bleo7D	Bleomycin	7 Days
+5-Bleo7D-3	Bleo7D	Bleomycin	7 Days
+6-Bleo7D-4	Bleo7D	Bleomycin	7 Days
+7-Bleo7D-5	Bleo7D	Bleomycin	7 Days
+8-Bleo7D-6	Bleo7D	Bleomycin	7 Days
+12-Control14D-4	Control	Control	14 Days
+11-Control14D-3	Control	Control	14 Days
+22-Control21D-6	Control	Control	21 Days
+32-Control28D-8	Control	Control	28 Days
+1-Control7D-1	Control	Control	7 Days

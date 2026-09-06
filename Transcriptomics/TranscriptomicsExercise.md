@@ -448,6 +448,98 @@ top_mixed.head(10) # you can adjust the number based on how many rows you want t
 
 ## Optional: Redo the analysis to compare MI_3D and SHAM_3d
 
+### Volcano plot
+
+A volcano plot combines **effect size** (`log2FoldChange`) and **statistical significance** (`padj`) in a single view. Each point represents one gene. Genes highlighted as significant use the same threshold as above: **`padj < 0.05`**.
+
+```python
+# Volcano plot
+volcano = deseq_results.dropna(subset=["padj", "log2FoldChange"]).copy()
+volcano["-log10(padj)"] = -np.log10(
+    volcano["padj"].clip(lower=np.finfo(float).tiny)
+)
+
+# Define groups
+volcano["status"] = "Not significant"
+volcano.loc[
+    (volcano["padj"] < 0.05) & (volcano["log2FoldChange"] > 0),
+    "status"
+] = "Up"
+
+volcano.loc[
+    (volcano["padj"] < 0.05) & (volcano["log2FoldChange"] < 0),
+    "status"
+] = "Down"
+
+plt.figure(figsize=(7, 5))
+
+# Not significant
+plt.scatter(
+    volcano.loc[volcano["status"] == "Not significant", "log2FoldChange"],
+    volcano.loc[volcano["status"] == "Not significant", "-log10(padj)"],
+    s=12,
+    alpha=0.4,
+    color="gray",
+    label="Not significant"
+)
+
+# Downregulated
+plt.scatter(
+    volcano.loc[volcano["status"] == "Down", "log2FoldChange"],
+    volcano.loc[volcano["status"] == "Down", "-log10(padj)"],
+    s=14,
+    alpha=0.7,
+    color="blue",
+    label="Downregulated"
+)
+
+# Upregulated
+plt.scatter(
+    volcano.loc[volcano["status"] == "Up", "log2FoldChange"],
+    volcano.loc[volcano["status"] == "Up", "-log10(padj)"],
+    s=14,
+    alpha=0.7,
+    color="red",
+    label="Upregulated"
+)
+
+plt.axhline(
+    -np.log10(0.05),
+    linestyle="--",
+    linewidth=1,
+    color="black"
+)
+
+plt.axvline(
+    0,
+    linestyle="--",
+    linewidth=1,
+    color="black"
+)
+
+# Label top 5 most significant genes
+top5 = volcano.nsmallest(10, "padj")
+
+for gene, row in top5.iterrows():
+    plt.annotate(
+        gene,
+        (row["log2FoldChange"], row["-log10(padj)"]),
+        xytext=(5, 5),
+        textcoords="offset points",
+        fontsize=9
+    )
+
+plt.xlabel("log2 fold change")
+plt.ylabel("-log10 adjusted p-value")
+plt.title("Volcano plot")
+plt.legend(
+    bbox_to_anchor=(1.05, 1),
+    loc="upper left",
+    borderaxespad=0
+)
+plt.show()
+```
+
 ### Step 5.10 — Save the DESeq2 results
 
 Save all genes with valid adjusted p-values, including non-significant genes, as a tab-separated file:

@@ -22,7 +22,7 @@ I have prepared a list of [web tools](https://sysbiophd.multiomics.se/webtools) 
 - Welcome and Course Information - [Slide](Slides/Opening_CourseInfo.pdf)
 - Transcriptomics - [Slides](Slides/Transcriptomics_Theory.pdf)  - [Workshop](https://sysbiophd.multiomics.se/Transcriptomics/TranscriptomicsExercise) - [Optional: Network Analysis](https://sysbiophd.multiomics.se/Transcriptomics/NetworkAnalysisExercise)
 - Genomics - [Workshop](https://sysbiophd.multiomics.se/Genomics/genetics-workshop)
-- Proteomics and Metabolomics - [Metabolomics Workshop](https://sysbiophd.multiomics.se/Metabolomics/MetabolomicsExercise)
+- Proteomics and Metabolomics (and Omics Integration) - [Slides](Slides/ProteoMetaboMultiOmics_Theory.pdf) - [Metabolomics & Integration Workshop](https://sysbiophd.multiomics.se/Metabolomics/MetabolomicsExercise)
 - Guest Lecture(s) from Industry and Academia - [Rui Benfeitas, PhD](https://sysbiophd.multiomics.se/guest)
 
 ## Course leader

@@ -1,4 +1,5 @@
 [⬇️ Download Data and Notebook](./Genomics.zip) (Right Click -> Save Link As..)
+[⬇️ For POSIT users, redownload the Notebook here](./genetics-workshop.ipynb) (Right Click -> Save Link As..)
 
 
 # Tutorial on Genetic Epidemiology
@@ -309,8 +310,7 @@ sample_order = psam[[iid_col]].rename(columns={iid_col: "#IID"})
 
 analysis = sample_order.merge(
     ann,
-    left_on="#IID",
-    right_on="Sample",
+    on="#IID",
     how="left",
     validate="one_to_one"
 )

@@ -1,4 +1,4 @@
-[⬇️ Download the Jupyter notebook](MetabolomicsExercise.ipynb?raw=1) (Right Click -> Save Link As..)
+[⬇️ Download Data and Notebook](./Metabolomics.zip) (Right Click -> Save Link As..)
 
 ---
 

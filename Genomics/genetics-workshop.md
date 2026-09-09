@@ -1,4 +1,4 @@
-[⬇️ Download the Jupyter notebook](./genetics-workshop.ipynb?raw=1) (Right Click -> Save Link As..)
+[⬇️ Download Data and Notebook](./Genomics.zip) (Right Click -> Save Link As..)
 
 
 # Tutorial on Genetic Epidemiology
